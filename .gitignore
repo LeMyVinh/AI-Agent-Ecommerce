@@ -1,0 +1,29 @@
+# Aider cache and history
+.aider*
+
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+
+# Local agent session and workspace state
+.session_state.json
+.workspace.json
+
+# Generated output
+output/
+
+# macOS
+.DS_Store
+
+# Aider cache
+.aider.tags.cache.v4/
+
+# Local cron lock
+.mimocode/.cron-lock
